@@ -1,0 +1,20 @@
+header {
+    width: 100vw;
+    height: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://arn.ae/wp-content/uploads/2013/06/flag1.jpg);
+}
+
+header h1 {
+    color: white;
+    padding: 0 5vw;
+    margin: 0;
+}
+#title {
+    height: auto;
+    width: auto;
+    clip-path: polygon(100% 0%, 95% 50%, 100% 100%, 0 100%, 5% 50%, 0 0);
+    background-color: black;
+}
