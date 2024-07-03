@@ -1,0 +1,22 @@
+#infos{
+    position: absolute;
+    right: 17vw;
+    top: 13vw;
+    color: white;
+}
+
+#nome_pais{
+    font-family: 'fontSec';
+    font-size: 5vw;
+    text-align: end;
+
+    transition: all 0.3s ease-in-out;
+}
+#explicacao_pais{
+    font-family: 'fontPrim';
+    font-size: 0.9vw;
+    width: 30vw;
+    text-align: justify;
+
+    transition: all 0.3s ease-in-out;
+}

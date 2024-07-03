@@ -1,0 +1,37 @@
+@import url("./bandeiras/japao.css");
+@import url("./bandeiras/alemanha.css");
+@import url("./bandeiras/franca.css");
+
+#bandeiras{
+    position: absolute;
+    left: 17vw;
+    top: 0vh;
+    
+    transition: all 0.3s ease-in-out;
+}
+
+.bandeira{
+    width: 33vw;
+    height: 45vh;
+
+    margin: 28vh 0 27vh;
+}
+
+.branca{
+    background-color: white;
+}
+.vermelha{
+    background-color: crimson;
+}
+.azul{
+    background-color: cornflowerblue;
+}
+.preta{
+    background-color: black;
+}
+.amarela{
+    background-color: goldenrod;
+}
+.verde{
+    background-color: chartreuse;
+}

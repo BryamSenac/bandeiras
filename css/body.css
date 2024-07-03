@@ -10,4 +10,14 @@
     background-image: url("https://imgmd.net/images/v1/guia/1698620/japao-89-cat.jpg");
     background-size: cover;
     background-position: center;
+
+    transition: all 0.3s ease-in-out;
+}
+
+#backgroud_infos{
+    margin: 17.5vh auto;
+    width: 75vw;
+    height: 65vh;
+    border-radius: 3vw;
+    background-color: rgba(0, 0, 0, 0.35);
 }

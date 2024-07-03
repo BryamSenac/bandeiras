@@ -1,6 +1,7 @@
 @import url("header.css");
 @import url("body.css");
-@import url("bandeira_infos.css");
+@import url("bandeira.css");
+@import url("infos.css");
 
 @font-face {
     font-family: "fontPrim";

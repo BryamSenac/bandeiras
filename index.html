@@ -6,51 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bandeiras</title>
     <link rel="stylesheet" href="./css/index.css">
+    <script type="module" src="./js/index.js" defer></script>
 </head>
 
 <body>
     <header id="mini_bandeiras">
-        <div class="mini_bandeira japao branca">
+        <div class="mini_bandeira japao branca" onclick="attBandeira(0)">
             <div class="vermelha"></div>
         </div>
-        <div class="mini_bandeira alemanha">
+        <div class="mini_bandeira alemanha" onclick="attBandeira(1)">
             <div class="preta"></div>
             <div class="vermelha"></div>
             <div class="amarela"></div>
         </div>
-        <div class="mini_bandeira franca">
+        <div class="mini_bandeira franca" onclick="attBandeira(2)">
             <div class="azul"></div>
             <div class="branca"></div>
             <div class="vermelha"></div>
         </div>
     </header>
     <section id="body">
-        <div class="bandeira japao">
-            <div></div>
+        <div id="backgroud_infos"></div>
+        <div id="bandeiras">
+            <div class="bandeira japao branca">
+                <div class="vermelha"></div>
+            </div>
+            <div class="bandeira alemanha">
+                <div class="preta"></div>
+                <div class="vermelha"></div>
+                <div class="amarela"></div>
+            </div>
+            <div class="bandeira franca">
+                <div class="azul"></div>
+                <div class="branca"></div>
+                <div class="vermelha"></div>
+            </div>
         </div>
         <div id="infos">
-            <div class="nome_pais">
-                <h1>JAPÃO</h1>
-            </div>
-            <div class="explicacao_pais">
-                <p>Japão (em japonês: 日本; romaniz.: Nihon ou Nippon; oficialmente 日本国, Nippon-koku ou koku, tradução
-                    literal: Estado do Japão) é um país insular da Ásia Oriental. Localizado no Oceano Pacífico, a leste
-                    do
-                    Mar do Japão, da República Popular da China, da Coreia do Norte, da Coreia do Sul e da Rússia,
-                    estendendo-se do Mar de Okhotsk, no norte, ao Mar da China Oriental e Taiwan, ao sul. Os caracteres
-                    que
-                    compõem seu nome significam "Origem do Sol", razão pela qual o Japão é às vezes identificado como a
-                    "Terra do Sol Nascente".
-
-                    O país é um arquipélago de 6 852 ilhas, cujas quatro maiores são Honshu, Hokkaido, Kyushu e Shikoku,
-                    representando em conjunto 97% da área terrestre nacional. A maior parte das ilhas é montanhosa, com
-                    muitos vulcões, como, por exemplo, os Alpes japoneses e o Monte Fuji. O Japão possui a décima
-                    primeira
-                    maior população do mundo, com cerca de 125,4 milhões de habitantes. A Região Metropolitana de
-                    Tóquio, que inclui a capital de facto de Tóquio e várias prefeituras adjacentes, é a maior área
-                    metropolitana do mundo, com mais de 37,4 milhões de habitantes.</p>
-            </div>
-        </div>
+            <h1 id="nome_pais"></h1>
+            <p id="explicacao_pais"></p>
+        </div>>
     </section>
 </body>
 
