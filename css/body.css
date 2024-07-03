@@ -1,0 +1,13 @@
+#body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url("https://imgmd.net/images/v1/guia/1698620/japao-89-cat.jpg");
+    background-size: cover;
+    background-position: center;
+}

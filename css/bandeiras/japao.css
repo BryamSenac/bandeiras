@@ -1,0 +1,15 @@
+.japao{
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.japao div{
+    width: 37%;
+    height: 55%;
+
+    background-color: crimson;
+    border-radius: 100vw;
+}
