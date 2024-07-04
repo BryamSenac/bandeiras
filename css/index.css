@@ -2,6 +2,7 @@
 @import url("body.css");
 @import url("bandeira.css");
 @import url("infos.css");
+@import url("button.css");
 
 @font-face {
     font-family: "fontPrim";

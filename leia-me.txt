@@ -1,0 +1,16 @@
+Esse projeto foi feito para ser uma variante deo site das bandeiras feito na aprendizagem de cada curso para continuar ou melhorar você deve seguir os seguintes passos.
+
+Em index.html dentro do <header> e da <div id="bandeiras"> adicione a sua bandeira seguindo a seguinte extrutura.
+<div class="bandeira ou mini_bandeira [nome do pais]">
+    //Estrutura da sua bandeira
+</div>
+
+Na pasta css/bandeiras voce deve criar o arquivo .css com o nome da baneira e la configura-la, não esqueça de importala dentro do arquivo bandeira.css
+
+Em bandeira.js dentro da classe Bandeiras crie um novo objeto usando a classe Bandeira e passando as informações
+
+nome: [nome do país tudo maiusculo],
+descricao: [texto retirando de alguma fonte, os atuais vem do GPT],
+img: [link de uma imagem bonita do país para servir de fundo da tela em resolução 1920x1080],
+
+Ao selecionar uma miniatura de bandeira a tela s eatualiza com essas informações

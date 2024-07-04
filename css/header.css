@@ -16,6 +16,7 @@ header{
 
     flex-shrink: 0;/*Define o tamanho do cartão sem obedecer o tamanho do pai*/
     transition: all 0.2s ease-in-out;
+    cursor: pointer;
 }
 
 .mini_bandeira:hover{
