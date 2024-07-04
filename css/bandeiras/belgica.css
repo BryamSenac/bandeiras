@@ -1,0 +1,7 @@
+.belgica{
+    display: flex;
+}
+.belgica div{
+    height: 100%;
+    width: 33.333%;
+}

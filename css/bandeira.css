@@ -2,6 +2,7 @@
 @import url("./bandeiras/alemanha.css");
 @import url("./bandeiras/franca.css");
 @import url("./bandeiras/russia.css");
+@import url("./bandeiras/belgica.css");
 
 #bandeiras{
     position: absolute;

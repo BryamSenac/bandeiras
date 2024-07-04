@@ -29,6 +29,11 @@ export class Bandeiras{
                 'A Rússia é o maior país do mundo em termos de área, abrangendo vastas regiões da Europa Oriental e da Ásia Setentrional. Sua capital, Moscou, é uma metrópole vibrante conhecida por marcos icônicos como o Kremlin e a Praça Vermelha. A Rússia possui uma rica herança cultural, incluindo escritores renomados como Tolstói e Dostoiévski, e compositores como Tchaikovsky. O país é uma potência global em recursos naturais, sendo um dos maiores produtores de petróleo e gás natural. Além disso, a Rússia tem uma história complexa, desde o Império Russo, passando pela União Soviética, até a Federação Russa atual. A diversidade geográfica do país inclui tundras, taigas, montanhas e lagos. A Rússia também é conhecida por suas tradições em balé, teatro e ciência, bem como pela influência significativa na política internacional.',
                 'https://images5.alphacoders.com/527/527084.jpg'
             ),
+            new Bandeira(
+                'BÉLGICA',
+                'A Bélgica é um pequeno país localizado na Europa Ocidental, conhecido por sua rica história, diversidade cultural e importância política. Sua capital, Bruxelas, é a sede da União Europeia e da OTAN, tornando-se um centro crucial de diplomacia internacional. A Bélgica é famosa por suas cidades históricas como Bruges, Ghent e Antuérpia, que apresentam arquitetura medieval e renascentista. O país é renomado por sua gastronomia, incluindo chocolates finos, waffles e uma vasta variedade de cervejas artesanais. A Bélgica tem três regiões principais: Flandres, Valônia e a Região de Bruxelas-Capital, refletindo sua diversidade linguística e cultural. O país também é conhecido por seu sistema de transporte eficiente e sua alta qualidade de vida. Além disso, a Bélgica desempenhou um papel significativo na história europeia, desde a Idade Média até os tempos modernos.',
+                'https://images6.alphacoders.com/683/683917.jpg'
+            ),
         ];
         this.bandeira_id = 0;
     }
