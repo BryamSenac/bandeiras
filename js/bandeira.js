@@ -58,11 +58,11 @@ export class Bandeiras{
         }, 300);
     }
 
-attBandeira(index) {
-    if (index != this.bandeira_id) {
-        this.bandeira_id = index;
-        document.getElementById('bandeiras').style.top = '-' + (73 * index) + 'vh';
-        this.gerarInfos();
+    attBandeira(index) {
+        if (index != this.bandeira_id) {
+            this.bandeira_id = index;
+            document.getElementById('bandeiras').style.top = '-' + (73 * index) + 'vh';
+            this.gerarInfos();
+        }
     }
-}
 }
