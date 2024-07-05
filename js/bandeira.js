@@ -34,6 +34,11 @@ export class Bandeiras{
                 'A Bélgica é um pequeno país localizado na Europa Ocidental, conhecido por sua rica história, diversidade cultural e importância política. Sua capital, Bruxelas, é a sede da União Europeia e da OTAN, tornando-se um centro crucial de diplomacia internacional. A Bélgica é famosa por suas cidades históricas como Bruges, Ghent e Antuérpia, que apresentam arquitetura medieval e renascentista. O país é renomado por sua gastronomia, incluindo chocolates finos, waffles e uma vasta variedade de cervejas artesanais. A Bélgica tem três regiões principais: Flandres, Valônia e a Região de Bruxelas-Capital, refletindo sua diversidade linguística e cultural. O país também é conhecido por seu sistema de transporte eficiente e sua alta qualidade de vida. Além disso, a Bélgica desempenhou um papel significativo na história europeia, desde a Idade Média até os tempos modernos.',
                 'https://images6.alphacoders.com/683/683917.jpg'
             ),
+            new Bandeira(
+                'POLÔNIA',
+                'A Polônia é um país situado na Europa Central, conhecido por sua rica história, cultura vibrante e resiliência. Sua capital, Varsóvia, é uma cidade dinâmica que se reergueu das ruínas da Segunda Guerra Mundial, abrigando marcos como o Castelo Real e a Cidade Velha. A Polônia é famosa por suas paisagens diversas, que vão desde as praias do Mar Báltico até as montanhas Tatra no sul. Culturalmente, o país é berço de grandes figuras como o compositor Frédéric Chopin e o cientista Marie Curie. A história da Polônia é marcada por períodos de grandeza e adversidade, incluindo a partição do país e a ocupação nazista durante a Segunda Guerra Mundial. Atualmente, a Polônia tem uma economia em crescimento, destacando-se em setores como tecnologia e manufatura. Além disso, é membro ativo da União Europeia e da OTAN, desempenhando um papel significativo na política europeia.',
+                'https://wallpapercave.com/wp/wp1835261.jpg'
+            ),
         ];
         this.bandeira_id = 0;
     }
